@@ -72,5 +72,36 @@ form.addEventListener('submit', function(e) {
     checkLength(username, 3, 15);
     checkLength(password, 6, 25);
     checkEmail(email);
-    checkPasswordsMatch(password, password2);
+    checkPasswordsMatch(password, password2)
+
+
+    // if (username.value == '') {
+    //     showError(username, 'Username is required')
+
+    // } else {
+    //     showSuccess(username)
+    // }
+
+    // if (email.value == '') {
+    //     showError(email, 'Username is required')
+    // } else if(!isValidEmail(email.value)) {
+    //     showError(email, 'Email is not valid');   
+    // } else {
+    //     showSuccess(email)
+    // }
+
+    // if (password.value == '') {
+    //     showError(password, 'Username is required')
+
+    // } else {
+    //     showSuccess(password)
+    // }
+
+    // if (password2.value == '') {
+    //     showError(password2, 'Username is required')
+
+    // } else {
+    //     showSuccess(password2)
+    // }
+
 })
